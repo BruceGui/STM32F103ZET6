@@ -1,2 +1,5 @@
-# STM32F103ZET6
-Programming on cortex-M3
+# My own program on the stm32f103ze cortex-m3 cpu
+
+# Date 2015-04-15
+
+
