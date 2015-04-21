@@ -1,0 +1,10 @@
+Dependencies for Project 'own', Target 'ONE': (DO NOT MODIFY !)
+F (.\STM32_Init.c)(0x53AD4C75)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I e:\Keil_v5\ARM\RV31\INC-I e:\Keil_v5\ARM\CMSIS\Include-I e:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514"-o .\stm32_init.o --omf_browse .\stm32_init.crf --depend .\stm32_init.d)
+F (.\STM32F10x.s)(0x48D835FA)(--cpu Cortex-M3 -g --apcs=interwork -I e:\Keil_v5\ARM\RV31\INC-I e:\Keil_v5\ARM\CMSIS\Include-I e:\Keil_v5\ARM\Inc\ST\STM32F10x--pd "__UVISION_VERSION SETA 514"--list .\stm32f10x.lst --xref -o .\stm32f10x.o --depend .\stm32f10x.d)
+F (.\main.c)(0x53AD5998)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I e:\Keil_v5\ARM\RV31\INC-I e:\Keil_v5\ARM\CMSIS\Include-I e:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (.\Retarget.c)(0x48D835FC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I e:\Keil_v5\ARM\RV31\INC-I e:\Keil_v5\ARM\CMSIS\Include-I e:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514"-o .\retarget.o --omf_browse .\retarget.crf --depend .\retarget.d)
+I (e:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (e:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5475F300)
+I (e:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (e:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (.\usart.c)(0x53AC16E0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I e:\Keil_v5\ARM\RV31\INC-I e:\Keil_v5\ARM\CMSIS\Include-I e:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="514"-o .\usart.o --omf_browse .\usart.crf --depend .\usart.d)

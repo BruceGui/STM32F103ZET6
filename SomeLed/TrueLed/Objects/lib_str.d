@@ -1,0 +1,12 @@
+.\objects\lib_str.o: uC-Lib\lib_str.c
+.\objects\lib_str.o: .\include\lib_str.h
+.\objects\lib_str.o: .\include\cpu.h
+.\objects\lib_str.o: .\include\cpu_def.h
+.\objects\lib_str.o: .\include\lib_def.h
+.\objects\lib_str.o: .\include\lib_ascii.h
+.\objects\lib_str.o: .\include\app_cfg.h
+.\objects\lib_str.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\lib_str.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\lib_str.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+.\objects\lib_str.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\lib_str.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

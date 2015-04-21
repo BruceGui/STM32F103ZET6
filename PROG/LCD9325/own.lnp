@@ -1,0 +1,10 @@
+--cpu Cortex-M3
+".\stm32_init.o"
+".\stm32f10x.o"
+".\main.o"
+".\retarget.o"
+".\usart.o"
+--strict --scatter ".\own.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\own.map" -o .\own.axf

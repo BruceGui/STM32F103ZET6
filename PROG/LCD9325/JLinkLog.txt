@@ -1,0 +1,31 @@
+
+T22B8 000:242 SEGGER J-Link V4.72a Log File (0000ms, 0241ms total)
+T22B8 000:242 DLL Compiled: Jun 26 2013 11:49:14 (0000ms, 0241ms total)
+T22B8 000:242 Logging started @ 2015-03-28 21:42 (0000ms, 0241ms total)
+T22B8 000:242 JLINK_SetWarnOutHandler(...) (0000ms, 0241ms total)
+T22B8 000:242 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N: 17935099
+Feature(s): RDI,FlashDL,FlashBP,JFlash  returns O.K. (0026ms, 0267ms total)
+T22B8 000:268 JLINK_SetErrorOutHandler(...) (0000ms, 0267ms total)
+T22B8 000:268 JLINK_ExecCommand("ProjectFile = "E:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\LCD9325\JLinkSettings.ini"", ...)  returns 0x00 (0000ms, 0267ms total)
+T22B8 000:270 JLINK_ExecCommand("Device = STM32F103ZE", ...)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0000ms total)
+              Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).  returns 0x00 (0003ms, 0270ms total)
+T22B8 000:273 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 0270ms total)
+T22B8 000:273 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0270ms total)
+T22B8 000:273 JLINK_GetDLLVersion()  returns 47201 (0000ms, 0270ms total)
+T22B8 000:273 JLINK_GetFirmwareString(...) (0000ms, 0270ms total)
+T22B8 000:295 JLINK_GetDLLVersion()  returns 47201 (0000ms, 0270ms total)
+T22B8 000:296 JLINK_GetCompileDateTime() (0000ms, 0270ms total)
+T22B8 000:298 JLINK_GetFirmwareString(...) (0000ms, 0270ms total)
+T22B8 000:301 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0270ms total)
+T22B8 000:312 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0000ms, 0270ms total)
+T22B8 000:312 JLINK_SetSpeed(2000) (0000ms, 0270ms total)
+T22B8 000:312 JLINK_GetIdData(...)
+  ***** Error: Supply voltage too low (1 Volt is required, Measured: 0.0 Volt).
+Please check target power.STM32F1xxx: Can not attach to CPU. Trying connect under reset.RESET (pin 15) high, but should be low. Please check target hardware. (0316ms, 0586ms total)
+T22B8 013:005 JLINK_Close() (0204ms, 0790ms total)
+T22B8 013:210 JLINK_Close() (0000ms, 0790ms total)
+T22B8 013:211 JLINK_Close() (0000ms, 0790ms total)

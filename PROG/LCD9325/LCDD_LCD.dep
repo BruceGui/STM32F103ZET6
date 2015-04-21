@@ -1,0 +1,16 @@
+Dependencies for Project 'LCDD', Target 'LCD': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x48D835FA)(--cpu Cortex-M3 -g --apcs=interwork -I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\LCD9325\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\stm32f10x.lst --xref -o .\stm32f10x.o --depend .\stm32f10x.d)
+F (.\STM32_Init.c)(0x53AD4C75)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\LCD9325\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o .\stm32_init.o --omf_browse .\stm32_init.crf --depend .\stm32_init.d)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+F (.\main.c)(0x53AD5998)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\LCD9325\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+F (.\Retarget.c)(0x48D835FC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\LCD9325\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o .\retarget.o --omf_browse .\retarget.crf --depend .\retarget.d)
+I (e:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (e:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5475F300)
+I (e:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (e:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (.\usart.c)(0x53AC16E0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\LCD9325\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o .\usart.o --omf_browse .\usart.crf --depend .\usart.d)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+F (.\ili9325.c)(0x53AD5C14)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\LCD9325\RTE-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I e:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o .\ili9325.o --omf_browse .\ili9325.crf --depend .\ili9325.d)
+I (ili9325.h)(0x53AD5D89)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h)(0x53BA0D60)

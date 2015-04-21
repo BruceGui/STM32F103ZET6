@@ -1,0 +1,22 @@
+Dependencies for Project 'newp', Target 'MMK': (DO NOT MODIFY !)
+F (RTE\Device\STM32F103ZE\RTE_Device.h)(0x52431878)()
+F (RTE\Device\STM32F103ZE\startup_stm32f10x_hd.s)(0x4F1E2E3C)(--cpu Cortex-M3 -g --apcs=interwork -I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\newP\RTE-I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\newP\RTE\Device\STM32F103ZE-I e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\RTE_Driver--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (RTE\Device\STM32F103ZE\system_stm32f10x.c)(0x4F1E2E3C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\newP\RTE-I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\newP\RTE\Device\STM32F103ZE-I e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\RTE_Driver-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\newP\RTE\RTE_Components.h)(0x55193AD2)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (e:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\RTE_Driver\GPIO_STM32F10x.c)(0x52200B5E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\newP\RTE-I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\newP\RTE\Device\STM32F103ZE-I e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\RTE_Driver-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD-o .\objects\gpio_stm32f10x.o --omf_browse .\objects\gpio_stm32f10x.crf --depend .\objects\gpio_stm32f10x.d)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\RTE_Driver\GPIO_STM32F10x.h)(0x52200B5E)
+I (e:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\newP\RTE\RTE_Components.h)(0x55193AD2)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (e:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\RTE_Driver\UART_STM32F10x.c)(0x52329A9E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\newP\RTE-I F:\OperatingSys\EmbeddedLove\STM32F103ZET6\www.own.com.cn\PROG\newP\RTE\Device\STM32F103ZE-I e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\RTE_Driver-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD-o .\objects\uart_stm32f10x.o --omf_browse .\objects\uart_stm32f10x.crf --depend .\objects\uart_stm32f10x.d)

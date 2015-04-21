@@ -1,0 +1,36 @@
+Dependencies for Project 'onePA2', Target 'STM32': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x48D835FA)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I F:\OperatingSys\Embedded\STM32F103ZET6\STM32F103ZET6\PROG\PA2LED.one\RTE-I e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1"--list .\stm32f10x.lst --xref -o .\stm32f10x.o --depend .\stm32f10x.d)
+F (.\STM32_Init.c)(0x5392FD75)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I F:\OperatingSys\Embedded\STM32F103ZET6\STM32F103ZET6\PROG\PA2LED.one\RTE-I e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD-o .\stm32_init.o --omf_browse .\stm32_init.crf --depend .\stm32_init.d)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (F:\OperatingSys\Embedded\STM32F103ZET6\STM32F103ZET6\PROG\PA2LED.one\RTE\RTE_Components.h)(0x553593EA)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (e:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\Gpio.c)(0x55359413)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I F:\OperatingSys\Embedded\STM32F103ZET6\STM32F103ZET6\PROG\PA2LED.one\RTE-I e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (F:\OperatingSys\Embedded\STM32F103ZET6\STM32F103ZET6\PROG\PA2LED.one\RTE\RTE_Components.h)(0x553593EA)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (e:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (STM32_Init.h)(0x48D835CC)
+I (usart.h)(0x53AC0965)
+I (e:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (.\Retarget.c)(0x5530522A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I F:\OperatingSys\Embedded\STM32F103ZET6\STM32F103ZET6\PROG\PA2LED.one\RTE-I e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD-o .\retarget.o --omf_browse .\retarget.crf --depend .\retarget.d)
+I (e:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (e:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5475F300)
+I (e:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (e:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (.\usart.c)(0x553594BD)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I F:\OperatingSys\Embedded\STM32F103ZET6\STM32F103ZET6\PROG\PA2LED.one\RTE-I e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD-o .\usart.o --omf_browse .\usart.crf --depend .\usart.d)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (F:\OperatingSys\Embedded\STM32F103ZET6\STM32F103ZET6\PROG\PA2LED.one\RTE\RTE_Components.h)(0x553593EA)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x55093C04)
+I (e:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (e:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (e:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (usart.h)(0x53AC0965)

@@ -1,0 +1,10 @@
+--cpu Cortex-M3
+".\stm32f10x.o"
+".\stm32_init.o"
+".\gpio.o"
+".\retarget.o"
+".\usart.o"
+--strict --scatter ".\onePA2.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\onePA2.map" -o .\onePA2.axf
