@@ -50,7 +50,8 @@
 
 
 
-volatile unsigned int milsec;
+volatile unsigned int  milsec;
+volatile unsigned char LedState;
 OS_EVENT* USART1_MBOX;
 
 /*
@@ -71,12 +72,14 @@ int main(void)
 	
 	USARTConfig(USART1, BAUDRATE);
 	
-	
+	LedState = 0;
 	/*
 	prompt();
 	*/
 	
+	
 	milsec = 100;
+	
 	os_err = OSTaskCreate((void (*) (void *)) App_TaskStart,
 		(void *)0,
 			(OS_STK *)&App_TaskStartStk[APP_TASK_START_STK_SIZE-1],
@@ -111,13 +114,12 @@ static void Task_LedLight(void* p_arg)
 	(void) p_arg;
 	
 	while(GOON) {
-		LED_ON();
 		/*
-		printf("LED ON\r\n");
-		*/
+		LED_ON();
 		OSTimeDlyHMSM(0, 0, 0, milsec);
 		LED_OFF();
 		OSTimeDlyHMSM(0, 0, 0, milsec);
+		*/
 	}
 }
 
@@ -133,7 +135,14 @@ static void Task_Usart(void* p_arg)
 	
 	while(GOON) {
 		msg=(unsigned char *)OSMboxPend(USART1_MBOX, 0, &err);
+		/*
 		printf("Message is %s\r\n", msg);
+		*/
+		if((*msg) == 'O') {
+			LED_ON();
+		} else {
+			LED_OFF();
+		}
 	}
 }
 
@@ -145,6 +154,8 @@ static void App_TaskCreate(void)
 {
 	USART1_MBOX = OSMboxCreate((void *) 0);
 	
+	
+	
 	OSTaskCreateExt(Task_Usart,
 					(void *)0,
 					(OS_STK*)&Task_UsartStk[Task_USART_STK_SIZE-1],
@@ -155,6 +166,7 @@ static void App_TaskCreate(void)
 					(void*)0,
 					OS_TASK_OPT_STK_CHK | OS_TASK_OPT_STK_CLR);
 	
+	
 	OSTaskCreateExt(Task_LedLight, 
 					(void*)0, 
 					(OS_STK *)&Task_LedStk[Task_Led_STK_SIZE-1],
@@ -164,6 +176,7 @@ static void App_TaskCreate(void)
 					Task_Led_STK_SIZE,
 					(void *)0,
 					OS_TASK_OPT_STK_CHK | OS_TASK_OPT_STK_CLR);
+	
 }
 
 /*
